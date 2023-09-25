@@ -1,0 +1,193 @@
+.logo {
+  width: 100px;
+  height: 34px;
+  left: 136px;
+  top: 25px;
+  background: #0d28a6;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  .jumbotron {
+    margin-top: -75px;
+  }
+}
+
+.tombol {
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  background-color: #f1f3ff;
+  background-size: cover;
+  height: 640px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* testimonial */
+.testi-title {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.testi-title p {
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.testi-content {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+
+.card-testi {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 46px;
+}
+.img-testi {
+  margin-top: 95px;
+  margin-bottom: 95px;
+  margin-right: 45px;
+}
+
+.testi-review {
+  margin-top: 40px;
+  margin-right: 39px;
+}
+
+.testi-review img {
+  margin-bottom: 20px;
+}
+
+.card-bg {
+  background-color: #f1f3ff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 0px #00000026;
+  border: 0;
+}
+
+.btn-courusel {
+  text-align: center;
+  margin-top: 24px;
+  margin-right: 24px;
+  border: 2px;
+}
+
+.btn-left {
+  text-align: center;
+  margin-right: 24px;
+  height: 42px;
+  width: 42px;
+  border-radius: 50px;
+  border: 2px;
+}
+.btn-right {
+  text-align: center;
+  border: 1px;
+  height: 42px;
+  width: 42px;
+  border-radius: 50px;
+  background-color: #5cb85f;
+}
+
+.cta-banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cta-banner-card {
+  background-color: #0d28a6;
+  border-radius: 18px;
+}
+
+.card-body-banner {
+  color: #fff;
+  text-align: center;
+}
+
+.card-body-banner h1 {
+  margin-top: 64px;
+}
+
+.card-body-banner p {
+  margin-top: 16px;
+}
+
+.card-body-banner a {
+  margin-top: 52px;
+}
+
+.text-testimonial {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.text-testimonial .tagline-testimonial {
+  margin-top: 16px;
+}
+
+.card-user-content {
+  margin-left: 20px;
+}
+
+.rate-star {
+  width: 16px;
+  height: 16px;
+}
+
+#card-testimonial {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3ff;
+  border: 0;
+  border-radius: 10px;
+}
+
+.prev-button,
+.next-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.671);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: var(--button-primary-color);
+  border: 1px solid var(--button-primary-color);
+  color: white;
+}
+
+#img-profile {
+  width: 170px;
+  height: 170px;
+}
